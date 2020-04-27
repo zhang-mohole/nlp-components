@@ -1,5 +1,9 @@
 # this file copy from https://github.com/pierre-rouanet/dtw
 
+'''
+pakage needed: numpy, scipy
+if you want to use the test code: scikit-learn
+'''
 from numpy import array, zeros, full, argmin, inf, ndim
 from scipy.spatial.distance import cdist
 from math import isinf
